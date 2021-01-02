@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(235deg, #772aff, #010615, #2196f3)
+}
+
+section .screen {
+    position: relative;
+    flex-grow: 1.9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
+    transition: 1s;
+}
+
+section:hover .screen {
+    opacity: 0.1;
+}
+
+section .screen:hover {
+    flex-grow: 5;
+    opacity: 1;
+}
+
+section .screen:nth-child(1) {
+    background-image: url(https://vignette.wikia.nocookie.net/liga-da-zueira-oficial/images/4/45/Base_Goku_FighterZ.png/revision/latest/scale-to-width-down/340?cb=20200610180853&path-prefix=pt-br);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section .screen:nth-child(2) {
+    background-image: url(https://i.pinimg.com/originals/b2/98/c2/b298c2f10c38bc14be6e196c07f84c27.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section .screen:nth-child(3) {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3eb70ccc-e7ad-4e1a-87fa-f97df9ef1c52/dbxsvtg-5defe086-8efe-42b0-8d7c-34bb2a217a49.png/v1/fill/w_1600,h_2856,strp/goku_super_saiyajin_3_by_saodvd_dbxsvtg-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0yODU2IiwicGF0aCI6IlwvZlwvM2ViNzBjY2MtZTdhZC00ZTFhLTg3ZmEtZjk3ZGY5ZWYxYzUyXC9kYnhzdnRnLTVkZWZlMDg2LThlZmUtNDJiMC04ZDdjLTM0YmIyYTIxN2E0OS5wbmciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.bc4vwR9pJoc5KBx7bd_8bx1glZqgb-DKBRIiecp5H68);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section .screen:nth-child(4) {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d8bf49eb-f01d-4851-810a-6aa6fc317107/ddb50or-849ce70f-147a-47eb-a5b6-281cb8f16309.png/v1/fill/w_1280,h_2235,strp/goku_super_saiyan_4_dbs_colors_by_obsolete00_ddb50or-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0yMjM1IiwicGF0aCI6IlwvZlwvZDhiZjQ5ZWItZjAxZC00ODUxLTgxMGEtNmFhNmZjMzE3MTA3XC9kZGI1MG9yLTg0OWNlNzBmLTE0N2EtNDdlYi1hNWI2LTI4MWNiOGYxNjMwOS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.JdGYQh5MghrpHi12FHbSZfsPPXui5J-lWRldrfvD0Kc);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section .screen:nth-child(5) {
+    background-image: url(https://i.pinimg.com/originals/5e/22/5c/5e225c66225c93d36c4eb3810a761490.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section .screen:nth-child(6) {
+    background-image: url(https://i.pinimg.com/originals/25/3a/d0/253ad0b043c503cb017fbbfe6cdc2cb1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section .screen:nth-child(7) {
+    background-image: url(https://vignette.wikia.nocookie.net/vsbattles/images/3/30/Ultra_Instinct_Goku_Artwork_%28Jared%29.png/revision/latest?cb=20171009003622);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section .screen .content {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    background: #7904ff;
+    padding: 40px;
+    box-sizing: border-box;
+    transform: translateX(100%);
+    transition: 0.5s;
+    text-align: center;
+    opacity: 0.5;
+}
+
+section .screen:hover .content {
+    transform: translateX(0);
+    transition-delay: 1s;
+}
+
+section .screen .content h2 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #00e9be;
+}
